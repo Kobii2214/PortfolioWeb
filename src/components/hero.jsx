@@ -13,16 +13,8 @@ const Hero = () => {
           I’m a Front-end developer<br />
           and UI/UX designer
         </p>
-        <div className="clickable-images">
-          <a href="#img1">
-            <img src={Img1} alt="Image 1" className="clickable-img" />
-          </a>
-          <a href="#img2">
-            <img src={Img2} alt="Image 2" className="clickable-img" />
-          </a>
-          <a href="#img3">
-            <img src={Img3} alt="Image 3" className="clickable-img" />
-          </a>
+        <div className='Contacbtn'>
+        <button className="checkwork">SEE MY PROJECTS</button>
         </div>
       </div>
   
