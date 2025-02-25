@@ -29,13 +29,12 @@
 }
 
 .hero-image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
 }
 
 .hero-image img {
-    width: 650px;
+    width: 560px;
     height: auto;
 }
 .Contacbtn{
@@ -74,4 +73,45 @@
 .checkwork:active {
     box-shadow: none;
     transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    .hero-image {
+        position: relative;
+        right: 17rem;
+        width: 8rem;
+        height: 10rem;
+    }
+
+    .hero-image img {
+        position: relative;
+        top: 3rem;
+        right: 0.5rem;
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero-text {
+        width: 88%;
+        padding-top: 8rem;
+        padding-left: 3.6rem;
+    }
+    
+    .hero-text h1 {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 1rem;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        padding-left: 1rem;
+        text-align: center;
+    }
+
+    .Contacbtn{
+        position: relative;
+        top: 0.1rem;
+        right: 4.5rem;
+    }
 }
