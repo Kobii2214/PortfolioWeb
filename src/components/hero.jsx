@@ -1,8 +1,5 @@
 import React from 'react';
 import Kobe from './../assets/Kobe.png';
-import Img1 from './../assets/img1.png';
-import Img2 from './../assets/img2.png';
-import Img3 from './../assets/img3.png';
 
 const Hero = () => {
   return (
@@ -17,7 +14,6 @@ const Hero = () => {
         <button className="checkwork">SEE MY PROJECTS</button>
         </div>
       </div>
-  
       <div className="hero-image">
         <img src={Kobe} alt="Kobe Jamaal Elisan" />
       </div>

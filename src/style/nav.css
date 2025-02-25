@@ -37,3 +37,15 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+@media (max-width: 600px){
+  .navbar-item {
+    margin-right: 49px;
+    
+  }
+
+  .navbar-link {
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
